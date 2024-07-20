@@ -1,0 +1,13 @@
+spring.application:
+    name: config-server
+server:
+  port: 8181
+
+spring.cloud:
+    config:
+      server:
+        git:
+          username: hebbarkishore
+          #password will expire after 30days
+          password: #
+          uri:  https://github.com/hebbarkishore/config-server-repo/
